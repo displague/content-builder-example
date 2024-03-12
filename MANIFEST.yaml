@@ -1,11 +1,11 @@
 ---
 collection:
-  path: "equinix/cloud"
-  namespace: equinix
+  path: "example/cloud"
+  namespace: example
   name: cloud
 plugins:
   - type: "module_openapi"
-    name: "equinix_cloud"
+    name: "example_cloud"
     content: cloud
     api_object_path: "oas3.json"
     # resource: modules.yaml
