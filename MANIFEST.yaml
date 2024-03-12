@@ -7,9 +7,7 @@ plugins:
   - type: module_openapi
     name: "equinix_cloud"
     content: cloud
-    api_object_path:
-    - metal.json
-    - lbaas.json
+    api_object_path: metal.json
     resource: config
     action: generate_all
     unique_key: ""
