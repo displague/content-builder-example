@@ -15,3 +15,9 @@ make spec_url=https://raw.githubusercontent.com/OpenAPITools/openapi-petstore/ma
 See generated `collections/` after a successful build. (blocked by [Issue #1](https://github.com/displague/content-builder-example/issues/1))
 
 For more on Ansible Content Builder, see <https://www.ansible.com/blog/streamline-your-ansible-module-development-with-content-builder>.
+
+## Debug
+
+```sh
+make debug
+```

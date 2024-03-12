@@ -7,8 +7,8 @@ plugins:
   - type: "module_openapi"
     name: "example_cloud"
     content: cloud
-    api_object_path: "oas3.json"
-    # resource: modules.yaml
+    api_object_path: /spec/oas.json
+    # resource: config # path to modules.yaml
     action: "generate_all" # generate_schemas generate_modules generate_examples
     unique_key: ""
     rm_swagger_json: ""
