@@ -1,16 +1,17 @@
 ---
 collection:
-  path: collections/ansible_collections/equinix/cloud
+  path: "equinix/cloud"
   namespace: equinix
   name: cloud
 plugins:
-  - type: module_openapi
+  - type: "module_openapi"
     name: "equinix_cloud"
     content: cloud
-    api_object_path: metal.json
-    resource: config
-    action: generate_all
+    api_object_path: "oas3.json"
+    # resource: modules.yaml
+    action: "generate_all" # generate_schemas generate_modules generate_examples
     unique_key: ""
     rm_swagger_json: ""
-    module_version: "1.0.0"
+    module_version: "0.1.0"
     author: "Ansible Cloud Team"
+
